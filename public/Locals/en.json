@@ -8,5 +8,9 @@
         "contact":  "Contact",
         "singin" : "Singin",
         "header-btn" : "Sing Up"
+    },
+    "hero":{
+        "hero-title": "Self-Paced Learning Courses Online",
+        "hero-text": ""
     }
 }
