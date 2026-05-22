@@ -5,7 +5,9 @@ import React from 'react'
 function Hero() {
     const [t, i18n] = useTranslation();
   return (
-    <div className="hero"></div>
+    <div className="hero">
+        <div className="container"></div>
+    </div>
   )
 }
 
