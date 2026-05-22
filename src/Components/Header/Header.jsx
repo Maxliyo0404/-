@@ -8,7 +8,7 @@ function Header() {
      const [isMenuOpen, setIsMenuOpen] = useState(false);
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
-    };Education
+    };
     const handleChangeLanguage = (event) =>{
         i18n.changeLanguage(event.target.value)
     }
