@@ -8,5 +8,13 @@
     "contact": "Контакты",
     "singin": "Войти",
     "header-btn": "Регистрация"
-  }
+  },
+  "hero": {
+    "hero-title": "Онлайн-курсы для самостоятельного обучения",
+    "hero-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, vestibulum euismod nullam elementum. Urna, posuere nisi sit gravida massa. Ultrices bibendum sagittis pellentesque vitae sit.",
+    "hero-btn": "Начать курс",
+    "online Courses": "Онлайн-курсы",
+    "expert Instructors": "Экспертные инструкторы",
+    "Success Stories": "Истории успеха"
+}
 }
