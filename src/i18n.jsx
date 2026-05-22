@@ -19,9 +19,9 @@ i18n
     interpolation: {
       escapeValue: false, 
     },
-    // backend:{
-    //     loadPath:'/Locals/{{lng}}.json'
-    // }
+    backend:{
+        loadPath:'/Locals/{{lng}}.json'
+
   });
 
 
