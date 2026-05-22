@@ -12,6 +12,9 @@
     "hero":{
         "hero-title": "Self-Paced Learning Courses Online",
         "hero-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, vestibulum euismod nullam elementum. Urna, posuere nisi sit gravida massa. Ultrices bibendum sagittis pellentesque vitae sit.",
-        
+        "hero-btn" : "Start a coures",
+        "online Courses": "Online Courses",
+        "Expert Instructors": "Expert Instructors"
+
     }
 }
