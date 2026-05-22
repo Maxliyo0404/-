@@ -26,7 +26,7 @@ function Header() {
                     <li><a className="header-link" href="#">{t("header.contact")}</a></li>
                     <li><a className="header-link" href="#">{t("header.singin")}</a></li>
                   </ul>
-         
+              <button className="btn">{t("header.header-btn")}</button>
                   <div className="header-actions">
                     <select className="select" onChange={handleChangeLanguage} value={i18n.language}>
                       <option value="uz">Uz</option>
