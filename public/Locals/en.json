@@ -1,0 +1,10 @@
+{
+     "header":{
+        "logo": "Edication",
+        "home" : "Home",
+         "courses": "Courses",
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "contact":  "Contact"
+    },
+}
