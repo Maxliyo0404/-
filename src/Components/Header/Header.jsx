@@ -1,5 +1,5 @@
 import "./Header.css";
-import React from 'react'
+import React, { useState } from 'react'
 import i18next from "i18next";
 import { useTranslation } from "react-i18next";
 
@@ -13,7 +13,36 @@ function Header() {
         i18n.changeLanguage(event.target.value)
     }
   return (
-    
+    <div className="header">
+        <div className="container">
+            <div className="header-container">
+              <a className="logo" href="#">{t("header.logo")}</a>
+             <nav className={`header-nav ${isMenuOpen ? "active" : ""}`}>
+                  <ul className="header-list">
+                    <li><a className="header-link" href="footer">{t("header.home")}</a></li>
+                    <li><a className="header-link" href="footer">{t("header.about")}</a></li>
+                    <li><a className="header-link" href="footer">{t("header.services")}</a></li>
+                    <li><a className="header-link" href="footer">{t("header.portfolio")}</a></li>
+                    <li><a className="header-link" href="footer">{t("header.contact")}</a></li>
+                  </ul>
+        
+                  <div className="header-actions">
+                    <select className="select" onChange={handleChangeLanguage} value={i18n.language}>
+                      <option value="uz">Uz</option>
+                      <option value="en">Eng</option>
+                      <option value="ru"> Rus</option>
+                    </select>
+                  </div>
+           </nav>
+      <div className={`burger-menu ${isMenuOpen ? "active" : ""}`} onClick={toggleMenu}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+             
+            </div>
+        </div>
+    </div>
   )
 }
 
