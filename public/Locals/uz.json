@@ -8,5 +8,13 @@
     "contact": "Aloqa",
     "singin": "Kirish",
     "header-btn": "Ro'yxatdan o'tish"
-  }
+  },
+  "hero": {
+    "hero-title": "Mustaqil oʻrganish uchun onlayn kurslar",
+    "hero-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, vestibulum euismod nullam elementum. Urna, posuere nisi sit gravida massa. Ultrices bibendum sagittis pellentesque vitae sit.",
+    "hero-btn": "Kursni boshlash",
+    "online Courses": "Onlayn kurslar",
+    "expert Instructors": "Malakali instruktorlar",
+    "Success Stories": "Muvaffaqiyat hikoyalari"
+}
 }
