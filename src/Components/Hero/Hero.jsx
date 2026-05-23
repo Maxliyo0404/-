@@ -1,6 +1,9 @@
 import { useTranslation } from "react-i18next";
 import "./Hero.css";
 import React from 'react'
+import hero_list1 from "./image/hero_list1.svg";
+import hero_list2 from "./image/hero_list2.svg";
+import hero_list3 from "./image/hero_list3.svg";
 
 function Hero() {
     const [t, i18n] = useTranslation();
@@ -15,28 +18,28 @@ function Hero() {
                 </div>
                <ul className="hero-list">
                 <li className="hero-item">
-                    <div className="hero-icon">
+                    <img src={hero_list1} alt="rasm" />
                         <div className="list-titles">
                             <h3 className="list-title">1400 +</h3>
-                            <p className="list-text">{t,("hero.")}</p>
+                            <p className="list-text">{t("hero.online Courses")}</p>
                         </div>
-                    </div>
+                 
                 </li>
                 <li className="hero-item">
-                    <div className="hero-icon">
+                  <img src={hero_list2} alt="rasm" />
                         <div className="list-titles">
-                            <h3 className="list-title">1400 +</h3>
-                            <p className="list-text">{t,("hero.")}</p>
+                            <h3 className="list-title">1100 +</h3>
+                            <p className="list-text">{t("hero.expert Instructors")}</p>
                         </div>
-                    </div>
+                
                 </li>
                 <li className="hero-item">
-                    <div className="hero-icon">
+                    <img src={hero_list3} alt="rasm" />
                         <div className="list-titles">
-                            <h3 className="list-title">1400 +</h3>
-                            <p className="list-text">{t,("hero.")}</p>
+                            <h3 className="list-title">800 +</h3>
+                            <p className="list-text">{t("hero.Success Stories")}</p>
                         </div>
-                    </div>
+            
                 </li>
                </ul>
             </div>
