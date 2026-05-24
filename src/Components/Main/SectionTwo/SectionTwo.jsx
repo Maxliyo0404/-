@@ -12,8 +12,10 @@ function SectionTwo() {
     <div className="sectionTwo">
         <div className="container">
             <div className="sectionTwo-wrapper">
+                <div className="two-info">
                 <h2 className="two-title">{t("sectionTwo.two-title")}</h2>
-                <p className="two-text">{t("sectionTwo.two-title")}</p>
+                <p className="two-text">{t("sectionTwo.two-text")}</p>
+                </div>
                 <ul className="two-list">
                     <li className="two-item">
                         <img className="two-list" src={two_list1} alt="rasm" />

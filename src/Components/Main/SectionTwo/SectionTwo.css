@@ -1,0 +1,26 @@
+.sectionTwo-wrapper{
+    padding: 40px 0;
+}
+.two-info{
+     max-width: 423px;
+     margin: 0 auto;
+     text-align: center;
+    margin-bottom: 48px;
+}
+.two-title{
+    max-width: 423px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #222222;
+   line-height: 100%;
+   margin-bottom: 12px;
+   
+}
+.two-text{
+    max-width: 423px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    line-height: 155%;
+   
+}
