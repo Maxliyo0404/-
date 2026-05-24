@@ -47,11 +47,16 @@
     border-radius:4px;
     cursor: pointer;
     font-weight: 600;
+    transition: transform 0.2s ease; /* Silliq effekt uchun transition qo'shildi */
+    
     &:hover{
         transform: scale(1.1);
     }
 }
 .one-rasm{
+    display: block; /* Rasm tagidagi bo'sh joyni yo'qotadi */
+    width: 100%;    /* Rasmni to'liq moslashuvchan qiladi */
+    height: auto;
     max-width: 100%;
     border-radius: 4px;
 }
@@ -60,31 +65,90 @@
     height: 80px;
     border-radius: 50%;
     background: #FFFFFF;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   color: #086CF9;
-   font-size: 22px;
-   position: absolute;
-   top: 40%;
-   left: 45%;
-   animation: playPulse 2s infinite ease-in-out;
-  cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #086CF9;
+    font-size: 22px;
+    position: absolute;
+    top: 50%;   /* Markazlashtirish aniqroq qilindi */
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    animation: playPulse 2s infinite ease-in-out;
+    cursor: pointer;
 }
+
 @keyframes playPulse {
     0% {
-        transform: scale(1);
+        transform: translate(-50%, -50%) scale(1);
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7), 
                     0 0 0 0 rgba(8, 108, 249, 0.3);
     }
     70% {
-        transform: scale(1.05);
+        transform: translate(-50%, -50%) scale(1.05);
         box-shadow: 0 0 0 20px rgba(255, 255, 255, 0), 
                     0 0 0 40px rgba(8, 108, 249, 0);
     }
     100% {
-        transform: scale(1);
+        transform: translate(-50%, -50%) scale(1);
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0), 
                     0 0 0 0 rgba(8, 108, 249, 0);
+    }
+}
+
+/* ================= RESPONSIVE DESIGN ================= */
+
+/* 1. Planshetlar uchun (992px dan kichik ekranlar) */
+@media (max-width: 992px) {
+    .one-title {
+        font-size: 38px; /* Sarlavha biroz kichrayadi */
+    }
+    .one-text {
+        font-size: 18px;
+    }
+    .one-spans {
+        width: 70px;  /* Video pleyer tugmasi ham mos ravishda kichrayadi */
+        height: 70px;
+        font-size: 18px;
+    }
+}
+
+/* 2. Kichik planshet va mobil qurilmalar uchun (768px dan kichik) */
+@media (max-width: 768px) {
+    .sectionOne-wrapper {
+        flex-direction: column; /* Elementlar ustma-ust tushadi */
+        gap: 40px; /* Bloklar orasidagi masofa */
+    }
+    .sectionOne-left {
+        max-width: 100%; /* To'liq kenglikni egallaydi */
+        padding-top: 0;
+        text-align: center; /* Matnlarni o'rtaga tekislaydi */
+    }
+    .one-texts, .one-text {
+        max-width: 100%; /* Matnlar cheklanmaydi */
+    }
+    .sectionOne-right {
+        max-width: 100%; /* Rasm ham to'liq kenglikka o'tadi */
+        width: 100%;
+    }
+}
+
+/* 3. Kichik smartfonlar uchun (480px dan kichik) */
+@media (max-width: 480px) {
+    .one-title {
+        font-size: 28px; /* Mobil ekran uchun ideal sarlavha o'lchami */
+        line-height: 1.2;
+    }
+    .one-text {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    .one-btn {
+        width: 100%; /* Tugma telefonda to'liq ekran bo'lib turishi qulayroq */
+    }
+    .one-spans {
+        width: 60px;
+        height: 60px;
+        font-size: 16px;
     }
 }
