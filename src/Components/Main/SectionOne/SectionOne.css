@@ -47,7 +47,7 @@
     border-radius:4px;
     cursor: pointer;
     font-weight: 600;
-    transition: transform 0.2s ease; /* Silliq effekt uchun transition qo'shildi */
+    transition: transform 0.2s ease; 
     
     &:hover{
         transform: scale(1.1);
@@ -96,27 +96,22 @@
     }
 }
 
-/* ================= RESPONSIVE DESIGN ================= */
-
-/* 1. Planshetlar uchun (992px dan kichik ekranlar) */
 @media (max-width: 992px) {
     .one-title {
-        font-size: 38px; /* Sarlavha biroz kichrayadi */
+        font-size: 38px; 
     }
     .one-text {
         font-size: 18px;
     }
     .one-spans {
-        width: 70px;  /* Video pleyer tugmasi ham mos ravishda kichrayadi */
+        width: 70px; 
         height: 70px;
         font-size: 18px;
     }
 }
-
-/* 2. Kichik planshet va mobil qurilmalar uchun (768px dan kichik) */
 @media (max-width: 768px) {
     .sectionOne-wrapper {
-        flex-direction: column; /* Elementlar ustma-ust tushadi */
+        flex-direction: column-reverse; /* Elementlar ustma-ust tushadi */
         gap: 40px; /* Bloklar orasidagi masofa */
     }
     .sectionOne-left {
