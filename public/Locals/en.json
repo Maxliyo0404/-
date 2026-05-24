@@ -17,5 +17,11 @@
         "expert Instructors": "Expert Instructors",
         "Success Stories": "Success Stories"
 
+    },
+    "sectionOne" : {
+        "one-title": "Find Your Course That Makes Bright Future",
+        "one-texts": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies at diam magnis faucibus et faucibus gravida.  malesuada fauci bus iaculis eu. Fusce est, consectetur tempor penatibus sed. Ut dolor, vulputate quam nec aliquam aliquam nisl. Auctor eros, iaculis quam nisi, ",
+        "one-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et hendrerit euismod fusce sit. ",
+        "one-btn": "Learn More"
     }
 }
