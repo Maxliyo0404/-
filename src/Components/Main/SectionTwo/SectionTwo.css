@@ -56,3 +56,33 @@
     height: auto;
     margin-bottom: 25px;
 }
+@media (max-width: 1024px) {
+    .two-list {
+        grid-template-columns: repeat(2, 1fr); /* 4 ta ustun o'rniga 2 tadan bo'lib 2 qatorga tushadi */
+        gap: 30px; /* Masofani biroz qisqartiramiz */
+    }
+}
+
+/* 2. Kichik planshet va o'rta ekranli telefonlar uchun (768px gacha) */
+@media (max-width: 768px) {
+    .two-title {
+        font-size: 36px; /* Sarlavha o'lchami ekranga moslab kichraytiriladi */
+    }
+    .sectionTwo-wrapper {
+        padding: 30px 0; /* Ichki bo'shliq moslashtiriladi */
+    }
+}
+
+@media (max-width: 576px) {
+    .two-title {
+        font-size: 28px; /* Telefon ekrani uchun mos o'lcham */
+    }
+    .two-list {
+        grid-template-columns: 1fr; /* Elementlar telefonda 1 tadan bo'lib ustma-ust tushadi */
+        gap: 35px;
+    }
+    .twoList-title {
+        font-size: 20px; /* Kichik kartalar sarlavhasi ham kichrayadi */
+        margin-bottom: 10px;
+    }
+}
