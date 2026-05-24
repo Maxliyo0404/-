@@ -10,6 +10,13 @@ function SectionTwo() {
             <div className="sectionTwo-wrapper">
                 <h2 className="two-title"></h2>
                 <p className="two-text"></p>
+                <ul className="two-list">
+                    <li className="two-item">
+                        <img className="two-list" src={} alt="rasm" />
+                        <h3 className="twoList-title"></h3>
+                        <p className="twoList-text"></p>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
