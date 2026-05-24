@@ -22,5 +22,14 @@
     "one-texts": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies at diam magnis faucibus et faucibus gravida. malesuada fauci bus iaculis eu. Fusce est, consectetur tempor penatibus sed. Ut dolor, vulputate quam nec aliquam aliquam nisl. Auctor eros, iaculis quam nisi, ",
     "one-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et hendrerit euismod fusce sit. ",
     "one-btn": "Узнать больше"
+},
+"sectionTwo": {
+    "two-title": "Как это работает?",
+    "two-text": "Достигайте своих целей в кратчайшие сроки с помощью нашей онлайн-платформы. Учиться с нами легко и удобно.",
+    "twoList-title1": "Учитесь онлайн",
+    "twoList-title2": "Записи и конспекты",
+    "twoList-title3": "Интерактивные занятия",
+    "twoList-title4": "Пожизненная поддержка",
+    "twoList-text": "Наши курсы разработаны экспертами профессионального уровня на основе самых современных методик."
 }
 }
