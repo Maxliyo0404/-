@@ -26,7 +26,7 @@ function Hero() {
                  
                 </li>
                 <li className="hero-item">
-                  <img className="list -img" src={hero_list2} alt="rasm" />
+                  <img className="list-img" src={hero_list2} alt="rasm" />
                         <div className="list-titles">
                             <h3 className="list-title">1100 +</h3>
                             <p className="list-text">{t("hero.expert Instructors")}</p>

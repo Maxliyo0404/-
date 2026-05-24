@@ -110,6 +110,9 @@ body{
     justify-content: center;
     gap: 24px;
 }
+.list-img{
+    max-width: 100%;
+}
 
 .list-title {
     font-weight: 700;
@@ -142,10 +145,11 @@ body{
 
 @media (max-width: 768px) {
     .hero {
-        padding-top: 80px;
+        padding-top: 40px;
         padding-bottom: 40px; 
         margin-bottom: 40px; 
     }
+    
     .hero-list {
         position: relative;
         bottom: auto;
@@ -153,14 +157,16 @@ body{
         transform: none;
         width: 100%;
         max-width: 100%;
-        flex-direction: column;
+        flex-wrap: wrap;
         gap: 35px;
         padding: 40px 20px;
         text-align: center;
-
-        &:hover {
-            transform: none;
-        }
+    }
+    .hero-list:hover {
+        transform: none;
+        box-shadow: 0px 11px 35px 0px #00000014;
+        border-color: #f0f0f0;
+        cursor: default;
     }
 
     .hero-item {
@@ -168,16 +174,16 @@ body{
         gap: 10px;
         width: 100%;
     }
-    .hero-btn{
+    
+    .hero-btn {
         margin-bottom: 40px;
     }
 }
-
 @media (max-width: 480px) {
     .hero-title {
         font-size: 26px;
     }
     .list-title {
-        font-size: 24px;
+        font-size: 22px;
     }
 }
