@@ -3,9 +3,11 @@
     display: flex;
     align-items:start;
     justify-content: space-between;
+    position: relative;
 }
 .sectionOne-left{
     max-width: 50%;
+    padding-top: 30px;
 }
 .sectionOne-right{
     max-width: 50%;
@@ -20,7 +22,7 @@
    
 }
 .one-texts{
-    max-width: 100%;
+    max-width: 478px;
     font-weight: 400;
     font-size: 16px;
     color: #555555;
@@ -29,15 +31,15 @@
    
 }
 .one-text{
-    max-width: 100%;
+    max-width:489px;
     font-weight: 400;
-    font-size: 16px;
-    color: #555555;
-    line-height: 155%;
-    margin-bottom: 16px;
+    font-size: 20px;
+    color: #333333;
+    line-height: 28px;
+    margin-bottom: 32px;
    
 }
-.hero-btn {
+.one-btn {
     padding: 16px 30px;
     background: #3360FF;
     color: #fff;
@@ -48,4 +50,9 @@
     &:hover{
         transform: scale(1.1);
     }
+}
+.one-rasm{
+    max-width: 100%;
+    border-radius: 4px;
+    position: relative;
 }
