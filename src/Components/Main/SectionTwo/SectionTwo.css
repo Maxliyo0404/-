@@ -58,31 +58,28 @@
 }
 @media (max-width: 1024px) {
     .two-list {
-        grid-template-columns: repeat(2, 1fr); /* 4 ta ustun o'rniga 2 tadan bo'lib 2 qatorga tushadi */
-        gap: 30px; /* Masofani biroz qisqartiramiz */
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px; 
     }
 }
-
-/* 2. Kichik planshet va o'rta ekranli telefonlar uchun (768px gacha) */
 @media (max-width: 768px) {
     .two-title {
-        font-size: 36px; /* Sarlavha o'lchami ekranga moslab kichraytiriladi */
+        font-size: 36px; 
     }
     .sectionTwo-wrapper {
-        padding: 30px 0; /* Ichki bo'shliq moslashtiriladi */
+        padding: 30px 0; 
     }
 }
-
 @media (max-width: 576px) {
     .two-title {
-        font-size: 28px; /* Telefon ekrani uchun mos o'lcham */
+        font-size: 28px;
     }
     .two-list {
-        grid-template-columns: 1fr; /* Elementlar telefonda 1 tadan bo'lib ustma-ust tushadi */
+        grid-template-columns: 1fr; 
         gap: 35px;
     }
     .twoList-title {
-        font-size: 20px; /* Kichik kartalar sarlavhasi ham kichrayadi */
+        font-size: 20px; 
         margin-bottom: 10px;
     }
 }
