@@ -25,4 +25,29 @@
 }
 .two-list{
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+.two-item{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.twoList-title{
+    font-weight: 700;
+    font-size: 48px;
+    color: #222222;
+   line-height: 100%;
+   margin-bottom: 12px;
+   
+}
+.twoList-text{
+    max-width: 423px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    line-height: 155%;
 }
