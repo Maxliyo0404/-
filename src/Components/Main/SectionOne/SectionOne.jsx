@@ -1,8 +1,10 @@
 import "./SectionOne.css";
 import React from 'react'
 import one_rasms from "./image/one_rasms.svg"
+import { useTranslation } from "react-i18next";
 
 function SectionOne() {
+    const [t, i18n] = useTranslation();
   return (
     <div className="SectionOne">
         <div className="container">
