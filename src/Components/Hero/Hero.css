@@ -20,6 +20,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 100px;
+    
 }
 .hero-info{
     max-width: 900px;
@@ -42,10 +43,23 @@ body{
    
 }
 .hero-text{
+    width: 867px;
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
    line-height: 155%;
    margin-bottom: 54px;
    
+}
+.hero-btn {
+    padding: 16px 30px;
+    background: #3360FF;
+    color: #fff;
+    border: none;
+    border-radius:4px;
+    cursor: pointer;
+    font-weight: 600;
+    &:hover{
+        transform: scale(1.1);
+    }
 }
