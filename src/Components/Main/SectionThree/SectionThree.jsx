@@ -22,8 +22,7 @@ function SectionThree() {
                         <div className="icon-list"><CiUser /></div>
                         <h3 className="list-title">5.8 k</h3>
                         <div className="sectionThree"><TfiEye />Jgit add </div>
-                        <h3 className="list-title">69k</h3>
-                         <div className="icon-list"><CiStar /></div>
+                       
                         
                     </div>
                 </li>
