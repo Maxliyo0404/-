@@ -179,4 +179,11 @@ body{
         margin-bottom: 40px;
     }
 }
-@
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 26px;
+    }
+    .list-title {
+        font-size: 22px;
+    }
+}
