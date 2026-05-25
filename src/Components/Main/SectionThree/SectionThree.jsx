@@ -12,7 +12,9 @@ function SectionThree() {
                 <h2 className="three-title"></h2>
                 <p className="three-text"></p>
             </div>
-            <ul className="three-list"></ul>
+            <ul className="three-list">
+                <li></li>
+            </ul>
             </div>
         </div>
     </div>
