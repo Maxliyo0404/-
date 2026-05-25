@@ -8,7 +8,9 @@ function SectionThree() {
     <div className="sectionThree">
         <div className="container">
             <div className="sectionThree-wrapper">
-
+            <div className="three-titles">
+                <h2 className="three-title"></h2>
+            </div>
             </div>
         </div>
     </div>
