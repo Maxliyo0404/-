@@ -4,7 +4,7 @@ import React from 'react'
 import { CiUser } from "react-icons/ci";
 import { TfiEye } from "react-icons/tfi";
 import { TfiEye } from "react-icons/tfi"
-
+import { CiStar } from "react-icons/ci";
 function SectionThree() {
     const [t, i18n] = useTranslation();
   return (
@@ -23,7 +23,8 @@ function SectionThree() {
                         <h3 className="list-title">5.8 k</h3>
                         <div className="sectionThree"><TfiEye />Jgit add </div>
                         <h3 className="list-title">69k</h3>
-
+                         <div className="icon-list"><CiStar /></div>
+                        
                     </div>
                 </li>
             </ul>
