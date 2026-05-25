@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "./SectionThree.css";
 import React from 'react'
+import { CiUser } from "react-icons/ci";
 
 function SectionThree() {
     const [t, i18n] = useTranslation();
@@ -15,7 +16,9 @@ function SectionThree() {
             <ul className="three-list">
                 <li className="three-item">
                     <img src={} alt="rasm" />
-                    <div className="list-icons"></div>
+                    <div className="list-icons">
+                        
+                    </div>
                 </li>
             </ul>
             </div>
