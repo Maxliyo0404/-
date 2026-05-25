@@ -21,6 +21,8 @@ function SectionThree() {
                     <div className="list-icons">
                         <div className="icon-list"><CiUser /></div>
                         <h3 className="list-title">5.8 k</h3>
+                        <div className="sectionThree"></div>
+
                     </div>
                 </li>
             </ul>
