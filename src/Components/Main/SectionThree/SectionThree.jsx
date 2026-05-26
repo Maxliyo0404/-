@@ -17,7 +17,7 @@ function SectionThree() {
             </div>
             <ul className="three-list">
                 <li className="three-item">
-                    <img src={} alt="rasm" />
+                    <img className="three-img" src={} alt="rasm" />
                     <div className="list-icons">
                         <div className="icon-list"><CiUser /></div>
                         <h3 className="list-title">5.8 k</h3>
@@ -25,7 +25,7 @@ function SectionThree() {
                         <h3 className="list-title">69k</h3>
                          <div className="icon-list"><CiStar /></div>
                           <h3 className="list-title">4.3k</h3>
-                          <img className="" src={} alt="rasm" />
+                          <img className="list-img" src={} alt="rasm" />
                         
                     </div>
                 </li>
