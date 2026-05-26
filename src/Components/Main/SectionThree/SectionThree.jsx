@@ -28,6 +28,9 @@ function SectionThree() {
                           <img className="list-img" src={} alt="rasm" />
                         
                     </div>
+                    <div className="list-titles">
+                        <h4 className="list-title"></h4>
+                    </div>
                 </li>
             </ul>
             </div>
