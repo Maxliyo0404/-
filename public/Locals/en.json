@@ -36,6 +36,11 @@
     },
     "sectionThree": {
         "threeList-title1": "Development",
+        "threeList-title2": "Android Developer",
+        "threeList-title3": "Development",
+        "threeList-title4": "Development",
+        "threeList-title5": "Development",
+        "threeList-title6": "Development",
         "threeList-text": "Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit."
     }
 }
