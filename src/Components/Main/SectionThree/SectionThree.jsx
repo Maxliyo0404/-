@@ -28,7 +28,7 @@ function SectionThree() {
                           <img className="list-img" src={} alt="rasm" />
                         
                     </div>
-                    <h4 className="threeList-title">{t("sectionThree.threeList-title1")}<span className="threeList-span">$150</span></h4>
+                    <h4 className="threeList-title">{t("sectionThree.threeList-title2")}<span className="threeList-span">$150</span></h4>
                     <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                 </li>
                 <li className="three-item">
@@ -43,7 +43,7 @@ function SectionThree() {
                           <img className="list-img" src={} alt="rasm" />
                         
                     </div>
-                    <h4 className="threeList-title">{t("sectionThree.threeList-title1")}<span className="threeList-span">$150</span></h4>
+                    <h4 className="threeList-title">{t("sectionThree.threeList-title2")}<span className="threeList-span">$130</span></h4>
                     <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                 </li>
                 <li className="three-item">
