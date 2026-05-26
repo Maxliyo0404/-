@@ -28,9 +28,8 @@ function SectionThree() {
                           <img className="list-img" src={} alt="rasm" />
                         
                     </div>
-                    <div className="list-titles">
-                        <h4 className="list-title"></h4>
-                    </div>
+                    <h4 className="liste-title"><span className="lliste-spans">$150</span></h4>
+                  
                 </li>
             </ul>
             </div>
