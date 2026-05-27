@@ -136,11 +136,7 @@
     }
 }
 @media (max-width: 576px) {
-    .threeList-titles {
-        flex-direction: column;  
-        align-items: flex-start;  
-        gap: 8px;                  
-    }
+   
     .three-list {
         grid-template-columns: 1fr;
         gap: 24px;
