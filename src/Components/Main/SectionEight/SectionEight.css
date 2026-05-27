@@ -152,12 +152,10 @@
     .eightList-title {
         font-size: 18px;
     }
-    
-    /* YANGI ECHIM: Flexbox orqali elementlarni sindiramiz */
     .eight-cards {
         display: flex;
-        flex-wrap: wrap;       /* Joy yetmaganda element pastga tushadi */
-        justify-content: center;/* Elementlarni o'rtaga tekislaydi */
+        flex-wrap: wrap;    
+        justify-content: center;
         gap: 20px;
     }
     .eight-list {
