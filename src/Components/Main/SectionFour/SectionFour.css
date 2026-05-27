@@ -1,0 +1,105 @@
+.sectionFour{
+    padding: 40px 0;
+}
+.four-titles{
+  max-width: 551px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.four-title{
+    max-width: 100%;
+    font-weight: 700;
+    font-size: 48px;
+    color: #222222;
+   line-height: 100%;
+   margin-bottom: 12px;
+   
+}
+.four-text{
+    max-width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    line-height: 155%;
+}
+.four-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: stretch;
+    margin-bottom:48px ;
+}
+.four-item{
+    max-width: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+   box-shadow: 0px 11px 55px 0px #00000014;
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid transparent; 
+    &:hover{
+       transform: scale(0.9); 
+        box-shadow: 0 12px 30px rgba(8, 108, 249, 0.15); 
+        border-color: rgba(8, 108, 249, 0.3);
+    }
+    
+}
+.four-img{
+    width: 100%;
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.four-items{
+    padding: 18px 32px 36px;
+}
+.fourList-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: #222222;
+    line-height: 100%;
+    margin-bottom: 8px;
+}
+.fourList-texte{
+     font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    line-height: 155%;
+    margin-bottom: 24px;
+}
+.four-icons{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fourList-icons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.fourList-users{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+.fourList-stars{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.fourlist-text{
+   font-weight: 400;
+    font-size: 14px;
+    color: #555555;
+    line-height: 155%;
+}
+.four-user{
+    font-size: 16px;
+    color: #3b3a3a;
+}
+.four-star{
+    font-size: 16px;
+    color: #086CF9;
+}
