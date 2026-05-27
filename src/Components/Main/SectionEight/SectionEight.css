@@ -160,8 +160,6 @@
         justify-content: center;/* Elementlarni o'rtaga tekislaydi */
         gap: 20px;
     }
-    
-    /* Ro'yxat (kartochkalar) 100% kenglik bilan birinchi qatorni to'liq egallaydi */
     .eight-list {
         width: 100%;
         order: 1;            
