@@ -3,7 +3,6 @@ import "./SectionThree.css";
 import React from 'react'
 import { CiUser } from "react-icons/ci";
 import { TfiEye } from "react-icons/tfi";
-import { TfiEye } from "react-icons/tfi"
 import { CiStar } from "react-icons/ci";
 import three_img1 from "./image/three_img1.svg";
 import three_img11 from "./image/three_img11.svg";
@@ -12,7 +11,7 @@ import three_img22 from "./image/three_img22.svg";
 import three_img3 from "./image/three_img3.svg";
 import three_img33 from "./image/three_img33.svg";
 import three_img4 from "./image/three_img4.svg";
-import three_img33 from "./image/three_img33.svg";
+import three_img44 from "./image/three_img44.svg";
 import three_img5 from "./image/three_img5.svg";
 import three_img55 from "./image/three_img55.svg";
 import three_img6 from "./image/three_img6.svg";
@@ -82,7 +81,7 @@ function SectionThree() {
                         <h3 className="list-title">69k</h3>
                          <div className="icon-list"><CiStar /></div>
                           <h3 className="list-title">4.3k</h3>
-                          <img className="list-img" src={three_img33} alt="rasm" />
+                          <img className="list-img" src={three_img44} alt="rasm" />
                         
                     </div>
                     <h4 className="threeList-title">{t("sectionThree.threeList-title2")}<span className="threeList-span">$120</span></h4>
