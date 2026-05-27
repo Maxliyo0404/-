@@ -69,6 +69,14 @@
         "six-text2": "Students",
         "six-text3": "Courses",
         "six-text4": "Country"
+     },
+     "sectionSeven": {
+        "seven-title": "Our Latest Blog",
+        "seven-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, vestibulum euismod nullam at entum.",
+        "sevenList-title": "Product Marketing Creative Camping Brand Image",
+        "sevenList-text": "Lorem ipsum dolor sit amet, consectetur adipis cing elit. Amet, vestibulum euismod nullam at entum. Urna, posuere nisi sit gravida massa.",
+         "seven-link": "Read More...",
+         "seven-btn": "View All"
      }
    
 }
