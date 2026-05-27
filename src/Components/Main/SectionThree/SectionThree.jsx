@@ -91,15 +91,15 @@ function SectionThree() {
                     <img className="three-img" src={three_img5} alt="rasm" />
                     <div className="list-icons">
                         <div className="icon-list"><CiUser /></div>
-                        <h3 className="list-title">5.8 k</h3>
+                        <h4 className="list-title">5.8 k</h4>
                         <div className="sectionThree"><TfiEye />Jgit add </div>
-                        <h3 className="list-title">69k</h3>
+                        <h4 className="list-title">69k</h4>
                          <div className="icon-list"><CiStar /></div>
-                          <h3 className="list-title">4.3k</h3>
+                          <h4 className="list-title">4.3k</h4>
                           <img className="list-img" src={three_img55} alt="rasm" />
                         
                     </div>
-                    <h4 className="threeList-title">{t("sectionThree.threeList-title3")}<span className="threeList-span">$120</span></h4>
+                    <h3 className="threeList-title">{t("sectionThree.threeList-title3")}<span className="threeList-span">$120</span></h3>
                     <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                 </li>
                 <li className="three-item">
