@@ -153,17 +153,20 @@
         padding: 20px;     
         box-sizing: border-box; 
     }
+    .list-icons{
+        gap: 12px;
+    }
 }
     @media (max-width: 376px) {
     .threeList-titles {
         display: flex;
-        flex-direction: column;   /* Matn va Narxni ustma-ust qiladi */
-        align-items: flex-start;  /* Chapga tekislaydi */
-        gap: 8px;                 /* Oraliq masofa */
+        flex-direction: column;  
+        align-items: flex-start;
+        gap: 8px;               
     }
     
     .list-icons {
-        flex-wrap: wrap;          /* Agar ikonkalar sig'masa, pastga tushadi */
-        gap: 10px;                /* Masofani biroz kamaytiramiz */
+        flex-wrap: wrap;          
+        gap: 10px;              
     }
 }
