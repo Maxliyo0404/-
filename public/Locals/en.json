@@ -77,6 +77,15 @@
         "sevenList-text": "Lorem ipsum dolor sit amet, consectetur adipis cing elit. Amet, vestibulum euismod nullam at entum. Urna, posuere nisi sit gravida massa.",
          "seven-link": "Read More...",
          "seven-btn": "View All"
+     },
+     "sectionEight": {
+        "eight-title": "What Our Students Say",
+        "eight-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit amet.",
+        "eightList-texte": "Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Placerat mauris non dictumst in leo etiam. Proin iaculis arcu iaculis egestas.",
+        "eightList-title1": "Jony Ahmed",
+        "eightList-title2": "Mukter Hossain",
+        "eightList-title3": "Jony Sing",
+        "eightList-text": "UI/UX Student"
      }
    
 }
