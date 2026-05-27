@@ -36,11 +36,20 @@
 .three-item{
     max-width: 100%;
     background: #FFFFFF;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 24px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02); 
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid transparent; 
+    &:hover{
+       transform: translateY(-8px); 
+        box-shadow: 0 12px 30px rgba(8, 108, 249, 0.15); 
+        border-color: rgba(8, 108, 249, 0.3);
+    }
     
 }
 .three-img{
+    width: 100%;
     max-width: 100%;
     margin-bottom:24px ;
 }
@@ -72,4 +81,26 @@
 .threeList-texts{
     border-top: 0.5px solid #E9E8E8;
     padding-top: 20px;
+}
+.threeList-titles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    color: #333333;
+    font-weight: 700;
+    font-size: 24px;
+   line-height: 100%;
+}
+.threeList-span{
+    color:#086CF9 ;
+    font-weight: 700;
+    font-size: 24px;
+   line-height: 100%;
+}
+.threeList-text{
+    font-weight: 400;
+    font-size: 14px;
+    color: #555555;
+    line-height: 155%;
 }

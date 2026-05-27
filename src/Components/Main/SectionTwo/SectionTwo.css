@@ -59,7 +59,7 @@
 }
 @media (max-width: 1024px) {
     .two-list {
-        grid-template-columns: repeat(2, 1fr); /* 4 ta ustun o'rniga 2 tadan bo'lib 2 qatorga tushadi */
+        grid-template-columns: repeat(2, 1fr); 
         gap: 30px; 
     }
 }
