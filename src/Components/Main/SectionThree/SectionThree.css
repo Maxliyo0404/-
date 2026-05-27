@@ -31,14 +31,22 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    align-items: stretch;
 }
 .three-item{
     max-width: 100%;
     background: #FFFFFF;
     border-radius: 6px;
     padding: 24px;
+    
 }
-.three-rasm{
+.three-img{
     max-width: 100%;
-    margin-bottom: ;
+    margin-bottom:24px ;
+}
+.list-icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
 }
