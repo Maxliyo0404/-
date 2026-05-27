@@ -45,14 +45,25 @@
     margin-bottom:24px ;
 }
 .list-icons{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
 }
 .threeList-title{
     font-weight: 400;
     font-size: 16px;
     color: #555555;
     line-height: 155%;
+}
+.icon-list{
+    width: 32px ;
+    height:32px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #086CF9;
+    font-size: 18px;
+    border: 0.6px solid #C8C8C8;
 }
