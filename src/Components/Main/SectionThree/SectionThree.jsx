@@ -32,7 +32,7 @@ function SectionThree() {
                     <div className="list-icons">
                         <div className="icon-list"><CiUser /></div>
                         <h4 className="threeList-title">5.8 k</h4>
-                        <div className="sectionThree"><TfiEye /></div>
+                        <div className="icon-list"><TfiEye /></div>
                         <h4 className="threeList-title">69k</h4>
                          <div className="icon-list"><CiStar /></div>
                           <h4 className="threeList-title">4.3k</h4>
