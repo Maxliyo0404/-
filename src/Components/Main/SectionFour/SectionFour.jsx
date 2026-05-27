@@ -27,8 +27,8 @@ function SectionFour() {
                                     <p className="fourlist-text"></p>
                                  </div>
                                 </div>
-                                <p className=""></p>
                             </div>
+                            <p className="fourlist-text"></p>
                         </div>
                         
                     </li>
