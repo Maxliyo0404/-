@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "./SectionNine.css";
 import React from 'react'
+import axios from "axios";
 
 function SectionNine() {
     const [t, i18n] = useTranslation();
@@ -11,7 +12,14 @@ function SectionNine() {
      const url = `https://api.telegram.org/bot${token}/sendMessage`;  
      const name = document.getElementById("username").value
     const messageContent = `Nmae: ${name}`;
-    
+    axios({
+        url:url,
+        method:"POST",
+        data :{
+             chat_id:chat_id,
+             text:messageContent,
+        }
+    })
 
     
 }
