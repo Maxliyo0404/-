@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "./Footer.css";
 import React from 'react'
+import { FaChevronRight } from "react-icons/fa";
 
 function Footer() {
     const [t, i18n] = useTranslation();
@@ -22,11 +23,27 @@ function Footer() {
                      </div>
                 </div>
                 <div className="footer-col">
-                   <h4 className="footer-title">{t("footer.footer-title")}</h4> 
+                   <h4 className="footer-title">{t("footer.footer-title1")}</h4> 
                 <ul className="footer-list">
-                    <li><a className="footer-link" href="#"></a></li>
+                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link1")}</a></li>
+                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link2")}</a></li>
+                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link3")}</a></li>
+                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link4")}</a></li>
+                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link5")}</a></li>
+                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link6")}</a></li>
                 </ul>
                 </div>
+                <div className="footer-col">
+                   <h4 className="footer-title">{t("footer.footer-title2")}</h4> 
+                <ul className="footer-list">
+                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link7")}</a></li>
+                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link8")}</a></li>
+                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link9")}</a></li>
+                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link10")}</a></li>
+                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link11")}</a></li>
+                </ul>
+                </div>
+                
             </div>
         </div>
     </div>
