@@ -40,7 +40,7 @@
 .label{
     width:553px;
     background: #FFFFFF;
-    padding: 12px;
+    padding: 8px;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -55,4 +55,19 @@
     color: #555555;
     line-height: 155%;
     
+}
+.nine-btn {
+    padding: 10px 30px;
+    background: #3360FF;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    transition: transform 0.2s ease;
+
+    &:hover {
+        transform: scale(1.05);
+    }
 }
