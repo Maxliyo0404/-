@@ -75,5 +75,11 @@
    "eightList-title2": "Mukter Hossain",
    "eightList-title3": "Jony Sing",
    "eightList-text": "UI/UX Talabasi"
+},
+"sectionNine": {
+  "nine-title": "Talabalarimiz nima deydi?",
+  "nine-text": "Bizning so'nggi yangiliklarimiz va foydali materiallarimizdan xabardor bo'lish uchun obuna bo'ling.",
+  "nine-input": "Emailingizni kiriting...",
+  "nine-btn": "Obuna bo'lish"
 }
 }

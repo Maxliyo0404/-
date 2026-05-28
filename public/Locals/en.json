@@ -89,9 +89,9 @@
      },
      "sectionNine":{
         "nine-title": "What Our Students Say",
-        "nine-text": "",
-        "nine-input": "",
-        "nine-btn": ""
+        "nine-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit amet.",
+        "nine-input": "Enter your email...",
+        "nine-btn": "Subscribe"
 
      }
    
