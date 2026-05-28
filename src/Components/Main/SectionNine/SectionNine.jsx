@@ -4,6 +4,9 @@ import React from 'react'
 
 function SectionNine() {
     const [t, i18n] = useTranslation();
+    const sendMessage = (event)=>}
+    event.preventDefault();
+    
   return (
     <div className="sectionNine">
         <div className="container">
