@@ -2,6 +2,13 @@ import { useTranslation } from "react-i18next";
 import "./Footer.css";
 import React from 'react'
 import { FaChevronRight } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa6";
+import { MdOutlineMail } from "react-icons/md";
+import { IoGlobeOutline } from "react-icons/io5";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { BiLogoInstagramAlt } from "react-icons/bi";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
     const [t, i18n] = useTranslation();
@@ -15,13 +22,11 @@ function Footer() {
                      <div className="footer-icons">
                         <span className="footer-span">{t("footer.footer-span")}</span>
                         <div className="footer-piktos">
-                            <div className="footer-pikto"></div>
-                            <div className="footer-pikto"></div>
-                            <div className="footer-pikto"></div>
-                            <div className="footer-pikto"></div>
+                            <div className="footer-pikto"><FaFacebookF /></div>
+                            <div className="footer-pikto"><FaTwitter /></div>
+                            <div className="footer-pikto"><BiLogoInstagramAlt /></div>
+                            <div className="footer-pikto"><FaLinkedinIn /></div>
                         </div>
-                     </div>
-                </div>
                 <div className="footer-col">
                    <h4 className="footer-title">{t("footer.footer-title1")}</h4> 
                 <ul className="footer-list">
@@ -47,9 +52,9 @@ function Footer() {
                     <h4 className="footer-title">{t("footer.footer-title3")}</h4> 
                     <ul className="footer-contact">
                         <li><i class="icon-location"></i> 230, Mirpur Area, Mirpur 10, Dhaka, Bangladesh</li>
-                        <li><i class="icon-phone"></i> +017 4845 7269</li>
-                        <li><i class="icon-email"></i> info@gmail.com</li>
-                        <li><i class="icon-web"></i> www.yourdomain.com</li>
+                        <li><i class="icon-phone"></i> <FaPhone /> +017 4845 7269</li>
+                        <li><i class="icon-email"></i><MdOutlineMail /> info@gmail.com</li>
+                        <li><i class="icon-web"></i><IoGlobeOutline /> www.yourdomain.com</li>
                     </ul>
                 </div>
             </div>
