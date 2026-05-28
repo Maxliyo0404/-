@@ -6,7 +6,9 @@ function SectionNine() {
     const [t, i18n] = useTranslation();
     const sendMessage = (event)=>}
     event.preventDefault();
-    
+    const token = `8799654997:AAFXbpKmshRxD_WcqAShMxtcHeU-IMsZ2OE`
+    const chat_id =  647264939
+    const url = `https://api.telegram.org/bot${token}/sendMessage
   return (
     <div className="sectionNine">
         <div className="container">
