@@ -9,7 +9,9 @@ function SectionNine() {
      const token = `8799654997:AAFXbpKmshRxD_WcqAShMxtcHeU-IMsZ2OE`
     const chat_id =  647264939
      const url = `https://api.telegram.org/bot${token}/sendMessage`;  
-
+     const name = document.getElementById("username").value
+    const messageContent = `Nmae: ${name}`;
+    
 
     
 }
@@ -22,8 +24,8 @@ function SectionNine() {
                      <p className="nine-text">{t("sectionNine.nine-text")}</p>
                 </div>
                 <form className="form">
-                    <input  type="text" required placeholder={} />
-                    <button className="nine-btn"></button>
+                    <input id="username" className="input" type="text" required placeholder={} />
+                    <button type="submit" className="nine-btn"></button>
                 </form>
             </div>
         </div>
