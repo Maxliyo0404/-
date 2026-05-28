@@ -13,7 +13,8 @@ function SectionNine() {
                      <p className="nine-text">{t("sectionNine.nine-text")}</p>
                 </div>
                 <form className="form">
-                    
+                    <input type="text" required placeholder={} />
+                    <button className="nine-btn"></button>
                 </form>
             </div>
         </div>
