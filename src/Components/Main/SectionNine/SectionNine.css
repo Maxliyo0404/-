@@ -20,7 +20,7 @@
     font-weight: 700;
     font-size: 36px;
     color: #FCFCFC;
-   line-height: 100%;
+   line-height: 120%;
    margin-bottom: 12px;
    
 }
@@ -32,13 +32,15 @@
     line-height: 155%;
 }
 .form{
+    width: 100%;
     max-width: 538px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .label{
-    width:553px;
+    width: 100%;
+    max-width:553px;
     background: #FFFFFF;
     padding: 8px;
     border-radius: 4px;
@@ -47,6 +49,7 @@
     justify-content: space-between;
 }
 .input{
+    width: 100%;
     outline: none;
     background: none;
     border: none;
@@ -69,5 +72,45 @@
 
     &:hover {
         transform: scale(1.05);
+    }
+}
+/* 576px dan kichik bo'lgan telefonlar uchun */
+@media (max-width: 576px) {
+    .sectionNine-wrapper {
+        margin-bottom: 60px; /* Mobil telefonda pastki bo'shliq biroz qisqartirildi */
+        padding: 40px 16px;
+    }
+
+    .nine-title {
+        font-size: 28px; /* Sarlavha shrifti kichraytirildi */
+    }
+
+    .nine-text {
+        font-size: 14px; /* Matn shrifti kichraytirildi */
+    }
+
+    .nine-titles {
+        margin-bottom: 24px;
+    }
+
+    /* Input va tugmani mobil telefonda ustma-ust tushirish */
+    .label {
+        flex-direction: column;
+        background: transparent; /* Fonni olib tashlaymiz, chunki har bir element alohida bo'ladi */
+        padding: 0;
+        gap: 12px; /* Elementlar orasidagi masofa */
+    }
+
+    .input {
+        background: #FFFFFF;
+        padding: 14px;
+        border-radius: 4px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .nine-btn {
+        width: 100%; /* Tugma to'liq enni egallaydi */
+        padding: 14px; /* Bosishga qulay bo'lishi uchun padding kattalashtirildi */
     }
 }
