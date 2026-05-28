@@ -81,5 +81,24 @@
   "nine-text": "Bizning so'nggi yangiliklarimiz va foydali materiallarimizdan xabardor bo'lish uchun obuna bo'ling.",
   "nine-input": "Emailingizni kiriting...",
   "nine-btn": "Obuna bo'lish"
+},
+"footer": {
+  "footer-logo": "Education",
+  "footer-text": "Biz talabalarga zamonaviy ta'lim olish va o'z yutuqlariga erishishda yordam beramiz. Eng so'nggi yangiliklardan xabardor bo'ling.",
+  "footer-spans": "Bizni kuzating",
+  "footer-title1": "Foydali havolalar",
+  "footer-title2": "Qo'llab-quvvatlash",
+  "footer-title3": "Aloqa",
+  "footer-link1": "Biz haqimizda",
+  "footer-link2": "Bitiruv marosimi",
+  "footer-link3": "Grantlar va stipendiyalar",
+  "footer-link4": "Qabul bo'limi",
+  "footer-link5": "Xalqaro ta'lim",
+  "footer-link6": "Tadbirlar",
+  "footer-link7": "Til",
+  "footer-link8": "WordPress",
+  "footer-link9": "Maxfiylik siyosati",
+  "footer-link10": "Ko'p beriladigan savollar (FAQ)",
+  "footer-link11": "Yordam markazi"
 }
 }

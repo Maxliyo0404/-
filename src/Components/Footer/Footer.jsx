@@ -20,7 +20,7 @@ function Footer() {
                     <h3 className="footer-logo">{t("footer.footer-logo")}</h3>
                      <p className="footer-text">{t("footer.footer-text")}</p>
                      <div className="footer-icons">
-                        <span className="footer-span">{t("footer.footer-span")}</span>
+                        <span className="footer-span">{t("footer.footer-spans")}</span>
                         <div className="footer-piktos">
                             <div className="footer-pikto"><FaFacebookF /></div>
                             <div className="footer-pikto"><FaTwitter /></div>
