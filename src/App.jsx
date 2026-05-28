@@ -11,6 +11,7 @@ import SectionSix from "./Components/Main/SectionSix/SectionSix";
 import SectionSeven from "./Components/Main/SectionSeven/SectionSeven";
 import SectionEight from "./Components/Main/SectionEight/SectionEight";
 import SectionNine from "./Components/Main/SectionNine/SectionNine";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <SectionSeven/>
       <SectionEight/>
       <SectionNine/>
+      <Footer/>
     </div>
   )
 }
