@@ -1,5 +1,11 @@
 .sectionNine-wrapper{
     padding: 48px 0;
     background: #086CF9;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 
 }
