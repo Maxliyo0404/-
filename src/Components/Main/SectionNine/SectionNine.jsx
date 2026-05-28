@@ -4,11 +4,15 @@ import React from 'react'
 
 function SectionNine() {
     const [t, i18n] = useTranslation();
-    const sendMessage = (event)=>}
+    const sendMessage = (event)=>{
     event.preventDefault();
-    const token = `8799654997:AAFXbpKmshRxD_WcqAShMxtcHeU-IMsZ2OE`
+     const token = `8799654997:AAFXbpKmshRxD_WcqAShMxtcHeU-IMsZ2OE`
     const chat_id =  647264939
-    const url = `https://api.telegram.org/bot${token}/sendMessage
+     const url = `https://api.telegram.org/bot${token}/sendMessage`;  
+
+
+    
+}
   return (
     <div className="sectionNine">
         <div className="container">
@@ -18,7 +22,7 @@ function SectionNine() {
                      <p className="nine-text">{t("sectionNine.nine-text")}</p>
                 </div>
                 <form className="form">
-                    <input type="text" required placeholder={} />
+                    <input  type="text" required placeholder={} />
                     <button className="nine-btn"></button>
                 </form>
             </div>
