@@ -1,0 +1,247 @@
+.header {
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Katta qator joylashuvi */
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+/* Logo uslubi */
+.logo {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--primary-color);
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+}
+
+.logo-span {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin-top: 4px;
+  letter-spacing: 0.5px;
+}
+
+/* O'ng tomon bloklari */
+.header-right-side {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.logo-phone {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-dark);
+  transition: var(--transition);
+}
+
+.logo-phone:hover {
+  color: var(--primary-color);
+}
+
+.phone-icon {
+  color: var(--primary-color);
+  font-size: 14px;
+}
+
+/* Ijtimoiy tarmoqlar */
+.facebooks {
+  display: flex;
+  gap: 10px;
+}
+
+.facebook {
+  width: 36px;
+  height: 36px;
+  background-color: #f1f5f9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-dark);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.facebook:hover {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* Til tanlash select */
+.select {
+  padding: 6px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: var(--text-dark);
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  transition: var(--transition);
+}
+
+.select:hover {
+  border-color: var(--primary-color);
+}
+
+/* Ajratuvchi chiziq */
+.header-line {
+  border: 0;
+  height: 1px;
+  background-color: #f1f5f9;
+  margin: 0;
+}
+
+/* Asosiy Navigatsiya Menyusi */
+.header-nav {
+  padding: 12px 0;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-link {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #475569;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: var(--transition);
+}
+
+.header-link:hover:not(.shop-btn, .promo-link) {
+  color: var(--primary-color);
+  background-color: #eff6ff;
+}
+
+/* Figmadagi maxsus: Aktsiyalar */
+.promo-link {
+  color: var(--promo-color);
+  font-weight: 600;
+  background-color: #fff1f2;
+}
+
+.promo-link:hover {
+  background-color: #ffe4e6;
+}
+
+/* Figmadagi maxsus: Magazin Tugmasi */
+.shop-btn {
+  background-color: var(--primary-color);
+  color: #ffffff !important;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.2);
+}
+
+.shop-btn:hover {
+  background-color: #1d4ed8;
+  box-shadow: 0 6px 14px rgba(37, 99, 235, 0.3);
+}
+
+/* ==========================================
+   RESPONSIVE (Mobil va planshetlar uchun)
+============================================ */
+
+/* Burger tugmasi dizayni */
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.burger-menu span {
+  width: 100%;
+  height: 2px;
+  background-color: var(--text-dark);
+  border-radius: 2px;
+  transition: var(--transition);
+}
+
+/* Burger faollashgandagi transformatsiya (X bo'lishi) */
+.burger-menu.active span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.burger-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+.burger-menu.active span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+@media (max-width: 1024px) {
+  .burger-menu {
+    display: flex;
+  }
+
+  /* Ijtimoiy tarmoqlar va telefonni yashirish yoki ixchamlashtirish */
+  .facebooks, .logo-phone {
+    display: none; 
+  }
+
+  /* Mobil menyu ochilishi */
+  .header-nav {
+    position: absolute;
+    top: 71px; /* navbar balandligiga qarab */
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    padding: 0;
+  }
+
+  .header-nav.active {
+    max-height: 500px;
+    padding: 20px 0;
+    border-top: 1px solid #f1f5f9;
+  }
+
+  .header-list {
+    flex-direction: column;
+    gap: 15px;
+    align-items: stretch;
+    padding: 0 20px;
+  }
+
+  .header-link {
+    display: block;
+    text-align: center;
+    padding: 12px;
+  }
+}
