@@ -33,9 +33,10 @@ function Header() {
                    <div className="header-actions">
                     <img src={} alt="" />
                     <select className="select" onChange={handleChangeLanguage} value={i18n.language}>
+                      <option value="ru"> Rus</option>
                       <option value="uz">Uz</option>
                       <option value="en">Eng</option>
-                      <option value="ru"> Rus</option>
+                      
                     </select>
                   </div>
 
