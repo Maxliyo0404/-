@@ -1,14 +1,15 @@
-.header {
-  width: 100%;
-  background-color: #ffffff;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+
+ .header {
+   position: sticky;
+    top: 0;
+    width: 100%;
+    background: #ffffff;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-/* Katta qator joylashuvi */
+
+
 .header-navbar {
   display: flex;
   justify-content: space-between;
@@ -16,14 +17,18 @@
   padding: 15px 0;
 }
 
-/* Logo uslubi */
 .logo {
-  display: flex;
-  flex-direction: column;
-  text-decoration: none;
-  font-size: 28px;
-  font-weight: 800;
-  color: var(--primary-color);
+    width: 61.25px;
+    height: 62.85px;
+    border-radius: 50%;
+     background: #B7ECB1;
+     display: flex;
+     align-items: center;
+     gap: 5px;
+     font-size: 28px;
+     font-weight: 800;
+
+
   letter-spacing: -0.5px;
   line-height: 1.1;
 }
