@@ -17,7 +17,7 @@ function Header() {
         <div className="container">
             <div className="header-wrapper">
                 <div className="header-navbar">
-                   <a className="logo" href="#">{t("header.logo")}</a>
+                   <a className="logo" href="#">{t("header.logo")} <span className="logo-span"></span></a>
                 </div>
                 
              <nav className={`header-nav ${isMenuOpen ? "active" : ""}`}>
