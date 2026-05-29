@@ -16,13 +16,16 @@ function Header() {
     <div className="header">
         <div className="container">
             <div className="header-wrapper">
-                 <a className="logo" href="#">{t("header.logo")}</a>
+                <div className="header-navbar">
+                   <a className="logo" href="#">{t("header.logo")}</a>
+                </div>
+                
              <nav className={`header-nav ${isMenuOpen ? "active" : ""}`}>
                   <ul className="header-list">
-                    <li><a className="header-link" href="#">{t("header.home")} <LuChevronDown /></a></li>
-                    <li><a className="header-link" href="#">{t("header.courses")} <LuChevronDown /></a></li>
-                    <li><a className="header-link" href="#">{t("header.page")} <LuChevronDown /></a></li>
-                    <li><a className="header-link" href="#">{t("header.blog")} <LuChevronDown /></a></li>
+                    <li><a className="header-link" href="#">{t("header.home")} </a></li>
+                    <li><a className="header-link" href="#">{t("header.courses")}</a></li>
+                    <li><a className="header-link" href="#">{t("header.page")} </a></li>
+                    <li><a className="header-link" href="#">{t("header.blog")} </a></li>
                     <li><a className="header-link" href="#">{t("header.contact")} </a></li>
                     <li><a className="header-link" href="#">{t("header.singin")}</a></li>
                   </ul>
