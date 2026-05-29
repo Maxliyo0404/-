@@ -96,15 +96,14 @@
 .header-actions {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 3px;
 }
 
 .select {
     padding: 8px;
-    border-radius: 6px;
-    border: 1px solid #ddd;
+    border: none;
     cursor: pointer;
-    background: transparent;
+    background: none;
 }
 
 hr {
