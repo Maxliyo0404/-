@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import { FaPhone } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa"
 import { AiFillInstagram } from "react-icons/ai";
+import russia from "./image/russia 1.svg";
 function Header() {
     const [t, i18n] = useTranslation();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,7 +32,7 @@ function Header() {
                     <div className="facebook"><AiFillInstagram /></div>
                    </div>
                    <div className="header-actions">
-                    <img src={} alt="" />
+                    <img src={russia} alt="rasm" />
                     <select className="select" onChange={handleChangeLanguage} value={i18n.language}>
                       <option value="ru"> Rus</option>
                       <option value="uz">Uz</option>
