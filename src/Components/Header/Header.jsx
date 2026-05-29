@@ -25,7 +25,7 @@ function Header() {
                     </div>
                    
                    <div className="header-phone">
-                   <a className="logo-phone" href="#"><FaPhone /> 0 (800) 508-622</a>
+                   <a className="logo-phone" href="#"> <span className="phone-span"><FaPhone /></span> 0 (800) 508-622</a>
                    <div className="facebooks">
                     <div className="facebook"><FaFacebookF /></div>
                     <div className="facebook"><AiFillInstagram /></div>
