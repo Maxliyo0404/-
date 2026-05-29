@@ -46,8 +46,8 @@ function Header() {
                     <li><a className="header-link" href="#">{t("header.О нас")} </a></li>
                     <li><a className="header-link" href="#">{t("header.Прайс")}</a></li>
                     <li><a className="header-link" href="#">{t("header.Рассписание")}</a></li>
-                    <li><a className="header-link" href="#">{t("header.")}</a></li>
-                    <li><a className="header-link" href="#">{t("header.")}</a></li>
+                    <li><a className="header-link" href="#">{t("header.Акции")}</a></li>
+                    <li><a className="header-link" href="#">{t("header.Магазин")}</a></li>
                   </ul>
                 
            </nav>
