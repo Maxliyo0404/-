@@ -138,12 +138,3 @@ hr {
 .header-link:hover {
     color: #55A630;
 }
-.promo-link {
-  color: var(--promo-color);
-  font-weight: 600;
-  background-color: #fff1f2;
-}
-
-.promo-link:hover {
-  background-color: #ffe4e6;
-}
