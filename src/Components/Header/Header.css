@@ -138,9 +138,6 @@ hr {
 .header-link:hover {
     color: #55A630;
 }
-
-
-/* Figmadagi maxsus: Aktsiyalar */
 .promo-link {
   color: var(--promo-color);
   font-weight: 600;
