@@ -100,11 +100,12 @@
 }
 
 .select {
-    padding: 8px;
+    padding: 8px 20px 8px 0px;
     border: none;
     cursor: pointer;
     background: none;
     color: transparent;
+    width: 25px;
 }
 
 hr {
