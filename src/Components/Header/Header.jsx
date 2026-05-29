@@ -36,7 +36,7 @@ function Header() {
 
                 </div>
                 </div>
-                
+                <hr />
              <nav className={`header-nav ${isMenuOpen ? "active" : ""}`}>
                   <ul className="header-list">
                     <li><a className="header-link" href="#">{t("header.Курсы обучения")} </a></li>
