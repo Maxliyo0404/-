@@ -44,10 +44,10 @@ function Header() {
                     <li><a className="header-link" href="#">{t("header.Видео-уроки")} </a></li>
                     <li><a className="header-link" href="#">{t("header.Блог")} </a></li>
                     <li><a className="header-link" href="#">{t("header.О нас")} </a></li>
-                    <li><a className="header-link" href="#">{t("header.singin")}</a></li>
-                    <li><a className="header-link" href="#">{t("header.singin")}</a></li>
-                    <li><a className="header-link" href="#">{t("header.singin")}</a></li>
-                    <li><a className="header-link" href="#">{t("header.singin")}</a></li>
+                    <li><a className="header-link" href="#">{t("header.Прайс")}</a></li>
+                    <li><a className="header-link" href="#">{t("header.Рассписание")}</a></li>
+                    <li><a className="header-link" href="#">{t("header.")}</a></li>
+                    <li><a className="header-link" href="#">{t("header.")}</a></li>
                   </ul>
                 
            </nav>
