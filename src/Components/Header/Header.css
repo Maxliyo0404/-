@@ -16,7 +16,11 @@
   align-items: center;
   padding: 15px 0;
 }
-
+ .header-logo{
+     display: flex;
+     align-items: center;
+     gap: 5px;
+ }
 .logo {
     width: 61.25px;
     height: 62.85px;
@@ -24,16 +28,16 @@
      background: #B7ECB1;
      display: flex;
      align-items: center;
-     gap: 5px;
-     font-size: 28px;
+     justify-content: center;
+     font-size: 11px;
      font-weight: 800;
-
-
-  letter-spacing: -0.5px;
-  line-height: 1.1;
+    color: fff;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
 }
 
 .logo-span {
+    max-width: 151px;
   font-size: 11px;
   font-weight: 500;
   color: var(--text-muted);

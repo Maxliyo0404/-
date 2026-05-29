@@ -19,7 +19,11 @@ function Header() {
         <div className="container">
             <div className="header-wrapper">
                 <div className="header-navbar">
-                   <a className="logo" href="#">{t("header.logo")} <span className="logo-span">{t("header.logo-span")} </span></a>
+                    <div className="header-logo">
+                        <a className="logo" href="#">{t("header.logo")} </a>
+                      <span className="logo-span">{t("header.logo-span")} </span>
+                    </div>
+                   
                    <div className="header-phone">
                    <a className="logo-phone" href="#"><FaPhone /> 0 (800) 508-622</a>
                    <div className="facebooks">
