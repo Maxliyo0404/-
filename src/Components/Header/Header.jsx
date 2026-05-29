@@ -32,7 +32,7 @@ function Header() {
                     <div className="facebook"><AiFillInstagram /></div>
                    </div>
                    <div className="header-actions">
-                    <img src={russia} alt="rasm" />
+                    <img className="header-img" src={russia} alt="rasm" />
                     <select className="select" onChange={handleChangeLanguage} value={i18n.language}>
                       <option value="ru"> Rus</option>
                       <option value="uz">Uz</option>
