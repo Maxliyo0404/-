@@ -15,6 +15,7 @@ function SectionOne() {
                             <p className="one-text"></p>
                         </div>
                         <h3 className="oneList-title"></h3>
+                        <button className="oneList-btn"></button>
                     </li>
                 </ul>
             </div>
