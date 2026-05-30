@@ -6,7 +6,7 @@ function SectionOne() {
     <div className="sectionOne">
         <div className="container">
             <div className="sectionOne-wrapper">
-                
+                <h2></h2>
             </div>
         </div>
     </div>
