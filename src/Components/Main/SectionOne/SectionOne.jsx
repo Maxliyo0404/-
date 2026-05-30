@@ -17,6 +17,9 @@ function SectionOne() {
                         <h3 className="oneList-title"></h3>
                         <button className="oneList-btn"></button>
                         <h4 className="oneList-title1"></h4>
+                        <div className="oneList-cards">
+                            
+                        </div>
                     </li>
                 </ul>
             </div>
