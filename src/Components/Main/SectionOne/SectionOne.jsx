@@ -5,7 +5,9 @@ function SectionOne() {
   return (
     <div className="sectionOne">
         <div className="container">
-            
+            <div className="sectionOne-wrapper">
+                
+            </div>
         </div>
     </div>
   )
