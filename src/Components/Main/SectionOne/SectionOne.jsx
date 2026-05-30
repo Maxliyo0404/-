@@ -9,7 +9,7 @@ function SectionOne() {
         <div className="container">
             <div className="sectionOne-wrapper">
                 <h2 className="one-title"></h2>
-                <ul className="one-listgit add "></ul>
+                <ul className="one-list"></ul>
             </div>
         </div>
     </div>
