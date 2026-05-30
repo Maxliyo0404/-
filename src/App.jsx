@@ -2,7 +2,7 @@ import "./App.css";
 import React from 'react'
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
-import
+import SectionOne from "./Components/Main/SectionOne/SectionOne";
 
 function App() {
   return (
