@@ -12,7 +12,7 @@ function SectionOne() {
                 <ul className="one-list">
                     <li className="one-item">
                         <div className="one-texts">
-                            <p className=""></p>
+                            <p className="one-text"></p>
                         </div>
                     </li>
                 </ul>
