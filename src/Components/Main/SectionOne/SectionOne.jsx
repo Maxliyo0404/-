@@ -2,6 +2,7 @@ import "./SectionOne.css";
 import React from 'react'
 
 function SectionOne() {
+    const
   return (
     <div className="sectionOne">
         <div className="container">
