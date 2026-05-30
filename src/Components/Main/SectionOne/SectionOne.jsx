@@ -4,7 +4,9 @@ import React from 'react'
 function SectionOne() {
   return (
     <div className="sectionOne">
-        
+        <div className="container">
+            
+        </div>
     </div>
   )
 }
