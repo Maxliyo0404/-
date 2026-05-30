@@ -9,6 +9,7 @@ function SectionOne() {
         <div className="container">
             <div className="sectionOne-wrapper">
                 <h2 className="one-title"></h2>
+                <ul></ul>
             </div>
         </div>
     </div>
