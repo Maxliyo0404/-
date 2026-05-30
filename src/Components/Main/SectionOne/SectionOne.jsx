@@ -11,7 +11,9 @@ function SectionOne() {
                 <h2 className="one-title"></h2>
                 <ul className="one-list">
                     <li className="one-item">
-                        <div className="one-texts"></div>
+                        <div className="one-texts">
+                            <p className=""></p>
+                        </div>
                     </li>
                 </ul>
             </div>
