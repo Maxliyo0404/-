@@ -18,7 +18,7 @@ function SectionOne() {
                         <button className="oneList-btn"></button>
                         <h4 className="oneList-title1"></h4>
                         <div className="oneList-cards">
-                            
+                            <p  className="oneList-cardText"></p>
                         </div>
                     </li>
                 </ul>
