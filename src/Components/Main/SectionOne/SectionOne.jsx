@@ -10,7 +10,9 @@ function SectionOne() {
             <div className="sectionOne-wrapper">
                 <h2 className="one-title"></h2>
                 <ul className="one-list">
-                    <li className="one-item"></li>
+                    <li className="one-item">
+                        <div className="one-texts"></div>
+                    </li>
                 </ul>
             </div>
         </div>
