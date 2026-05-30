@@ -7,4 +7,4 @@ function SectionOne() {
   )
 }
 
-export default SectionOn
+export default SectionOne
