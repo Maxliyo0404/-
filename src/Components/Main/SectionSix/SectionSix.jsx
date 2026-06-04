@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useTranslation } from "react-i18next";
 import "./SectionSix.css";
 import React from 'react'
@@ -31,3 +32,6 @@ function SectionSix() {
 }
 
 export default SectionSix
+=======
+import "./SectionSix.css";
+>>>>>>> 74f970b (SectionSix star)
